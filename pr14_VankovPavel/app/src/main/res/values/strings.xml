@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pr14_VankovPavel</string>
+    <string name="calendar">Каленьдарь</string>
+    <string name="alarm">Будильник</string>
+</resources>
