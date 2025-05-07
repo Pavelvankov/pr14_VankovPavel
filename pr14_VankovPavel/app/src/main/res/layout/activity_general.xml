@@ -18,7 +18,7 @@
             android:layout_height="28dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="22dp"
-            android:text="@string/General"
+            android:text="@string/alarm"
             android:textColor="@color/white"
             android:textSize="24dp"
             android:textStyle="bold"
@@ -37,52 +37,87 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="312dp"
-        android:orientation="vertical">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="07:30"
+            android:textColor="@color/white"
+            android:textSize="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="312dp"
-            android:layout_height="72dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="59dp"
-            android:background="@drawable/sheap6"
-            android:text="@string/General"
-            android:textColor="@color/white"
-            android:textSize="16dp"
-            android:layout_marginLeft="24dp"
-
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/sheap2"
             />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="312dp"
-            android:layout_height="72dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/sheap6" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="312dp"
-            android:layout_height="72dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/sheap6" />
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/sheap3" />
 
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="191dp">
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="08:00"
+            android:textColor="@color/white"
+            android:textSize="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/sheap5"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/sheap3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="304dp">
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="312dp"
             android:layout_height="48dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/shepa"
-            android:text="Добавить задачу"
+            android:text="Добавить будильник"
             android:layout_marginLeft="63dp"
             android:textColor="@color/white"
             android:layout_marginTop="38dp"
